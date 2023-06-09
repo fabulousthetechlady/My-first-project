@@ -1,0 +1,993 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: 0;
+    text-decoration: none;
+    
+
+}
+/* 
+@media screen and (max-width:480px){}
+body, html{
+overflow:hidden
+} */
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(225, 213, 213);
+    display: flex;
+    flex: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav img{
+width:90px;
+height: 50px;
+margin: 20px;
+transform: 2s;
+}
+
+
+ul{
+display: flex;
+line-height: 90px;
+margin-left: 600px;
+text-decoration: none;
+font-size: 15px;
+color: gray;
+list-style: none;
+}
+    
+
+ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+ul li a:hover, ul li a.active{
+    border-bottom: 3px solid brown;
+    }
+
+.menu{
+    margin-left: 5px;
+    border: 1px solid gray;
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 20px;
+    }
+
+    .menu a{
+        text-decoration: none;
+        color:gray;
+    }
+
+    
+
+.background{
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.background img{
+    width: 100%;
+    height: 700px;
+}
+
+.background .backg1{
+position: absolute;
+top: 40%;
+left: 5%;
+background-color: rgba(8, 5, 5, 0.66);
+color: white;
+font-size: 30px;
+padding: 20px 30px;
+border: none;
+text-align: left;
+}
+
+.background .backg2{
+position: absolute;
+top: 55%;
+left: 5%;
+background-color: rgba(8, 5, 5, 0.66);
+color: white;
+font-size: 20px;
+padding: 20px 30px;
+margin-top: 5px;
+border: none;
+text-align: left;
+}
+
+.background .backg3{
+position: absolute;
+top: 70%;
+left: 5%;
+background-color: rgba(8, 5, 5, 0.66);
+color: white;
+font-size: 15px;
+padding: 20px 30px;
+border-radius: 10PX;
+border: 2px solid white;
+text-align: left;
+}
+
+.background .backg4 {
+position: absolute;
+top: 70%;
+right: 68%;
+background-color: rgb(194,81,47);
+color: white;
+font-size: 15px;
+padding: 20px 30px;
+border-radius: 10PX;
+text-align: left;
+}
+
+
+.About{
+    width: 40%;
+    float: left;
+    margin: 15px;
+    }
+    
+    .About2{
+    width: 50%;
+    float: right;
+    margin-right: 10px;
+    margin-top: 14px;
+    }
+     
+    .About p {
+    margin-bottom: 2px;
+    font-size: 35px;
+    padding-left: 25px;
+    }
+    .About h2{
+        margin-bottom: 30px;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+
+    .text1{
+        margin-bottom: 2px;
+        font-size: 35px;
+        padding-left: 25px;
+        }
+    
+    .About2 p {
+    margin-bottom: 2px;
+    font-size: 30px;
+    padding-left: 20px;
+    }
+    .About2 h2{
+        margin-bottom: 30px;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    .abt-mid{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+    }
+    
+    .About .text1{
+        font-size: 15px;
+        margin-bottom: 10px;
+    
+    }
+    .About .text2{
+        font-size: 15px;
+    }
+    
+    .About2 .text3 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .shape{
+        width: 95%;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin-right: 5%;
+    
+    }
+    .box1{
+        position: relative;
+        width: 105px;
+        height: 100px;
+        border: solid white 8px;
+        outline: solid rgb(211, 205, 205) 1px;
+    background-color: white;
+    background-image: url(/asset/coffee-495x400.jpg);
+    background-size: contain;
+    } 
+    
+    .box2{
+        position: relative;
+        width: 105px;
+    height: 100px;
+    border: solid white 8px;
+    outline: solid rgb(211, 205, 205) 1px;
+        background-color: white;
+        background-image: url(/asset/wine-495x400.jpg);
+        background-size: contain;
+        } 
+    
+        .box3{
+            position: relative;
+            width: 105px;
+            height: 100px;
+            border: solid white 8px;
+            outline: solid rgb(211, 205, 205) 1px;
+            background-color: white;
+            background-image: url(/asset/soup_narrow-495x400.jpg);
+            background-size: contain;
+            } 
+    
+            .box4{
+                position: relative;
+                width: 105px;
+                height: 100px;
+                border: solid white 8px;
+                outline: solid rgb(211, 205, 205) 1px;
+                background-color: white;
+                background-image: url(/asset/burger-495x400.jpg);
+                background-size: contain;
+                } 
+    
+                .box5{
+                    position: relative;
+                    width: 105px;
+                    height: 100px;
+                    border: solid white 8px;
+                    outline: solid rgb(211, 205, 205) 1px;
+                    background-color: white;
+                    background-image: url(/asset/cheese-495x400.jpg);
+                    background-size: contain;
+                    } 
+    
+                    .box6{
+                        position: relative;
+                        width: 105px;
+                        height: 100px;
+                        border: solid white 8px;
+                        outline: solid rgb(211, 205, 205) 1px;
+                        background-color: white;
+                        background-image: url(/asset/fruit-495x400.jpg);
+                        background-size: contain;
+                        position: relative;
+                        } 
+    
+                        .box7{
+                            position: relative;
+                            width: 105px;
+                            height: 100px;
+                            border: solid white 8px;
+                            outline: solid rgb(211, 205, 205) 1px;
+                            background-color: white;
+                            background-image: url(/asset/pasta-495x400.jpg);
+                            background-size: contain;
+                            } 
+    
+                            .box8{
+                                position: relative;
+                                width: 105px;
+                                height: 100px;
+                                border: solid white 8px;
+                                outline: solid rgb(211, 205, 205) 1px;
+                                background-color: white;
+                                background-image: url(/asset/pizza-495x400.jpg);
+                                background-size: contain;
+                                } 
+    
+                                .box9{
+                                    position: relative;
+                                    width: 105px;
+                                    height: 100px;
+                                    border: solid white 8px;
+                                    outline: solid rgb(211, 205, 205) 1px;
+                                    background-color: white;
+                                    background-image: url(/asset/restaurant_hotel_brown-495x400.jpg);
+                                    background-size: contain;
+                                    }
+
+                                    .box10{
+                                        position:absolute; 
+                                        top: -130px; 
+                                        text-align:center;
+                                        color: white; 
+                                        background-color: rgb(32, 31, 31);
+                                        display: none;
+                                    }
+                                    .box10:hover{
+                                    }
+                                    .box11{
+                                        position:absolute; 
+                                        top: -100px; 
+                                        text-align:center;
+                                        color: white; 
+                                        background-color: rgb(32, 31, 31);
+                                        display: none;
+                                    }
+                                    .box12{
+                                        position:absolute; 
+                                        top: -100px; 
+                                        text-align:center;
+                                        color: white; 
+                                        background-color: rgb(32, 31, 31);
+                                        display: none;
+                                    }
+                                    .box13{
+                                        position:absolute; 
+                                        top: -100px; 
+                                        text-align:center;
+                                        color: white; 
+                                        background-color: rgb(32, 31, 31);
+                                        display: none;
+                                    }.box14{
+                                        position:absolute; 
+                                        top: -100px; 
+                                        text-align:center;
+                                        color: white; 
+                                        background-color: rgb(32, 31, 31);
+                                        display: none;
+                                    }
+
+                                    .box15{
+                                        position:absolute; 
+                                        top: -100px; 
+                                        text-align:center;
+                                        color: white; 
+                                        background-color: rgb(32, 31, 31);
+                                        display: none;
+                                    }
+
+                                    .box16{
+                                        position:absolute; 
+                                        top: -130px; 
+                                        text-align:center;
+                                        color: white; 
+                                        background-color: rgb(32, 31, 31);
+                                        display: none;
+                                    }
+
+                                    .box17{
+                                        position:absolute; 
+                                        top: -130px; 
+                                        text-align:center;
+                                        color: white; 
+                                        background-color: rgb(32, 31, 31);
+                                        display: none;
+                                    }
+
+                                    .box18{
+                                        position:absolute; 
+                                        top: -130px; 
+                                        text-align:center;
+                                        color: white; 
+                                        background-color: rgb(32, 31, 31);
+                                        display: none;
+                                    }
+.our-menu{
+    width: 100%;
+    height:200px;
+    background-color: black;
+    background: url('/asset/wine-495x400.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.our-menu P{
+    color: white;
+    font-size: 5em; 
+}
+
+   .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+   }   
+   
+   .container1{
+    width: 500px;
+    height: 60px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+   .container1 P{
+    font-size: 2em;
+
+   }
+
+   .container2{
+    width: 630px;
+    height: 85px;
+    background-color: white;
+    display: inline;
+    display: flex;
+   }
+
+   .container2:hover{
+    background-color: rgb(235, 232, 232);
+   }
+
+   .cont{
+    width: 100px;
+    height:85px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+   .cont3{
+    width: 75px;
+    height:75px;
+    background-color: black;
+    border-radius: 50%;
+   }
+.cont3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+   .cont1{
+    width: 700px;
+    height:85px ;
+    
+   }
+.cont4{
+width:400px ;
+height: 42.5px;
+
+}
+.cont4 p {
+    font-size: 1em;
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+}
+.cont5{
+width:400px ;
+height: 42.5px;
+
+
+}
+
+.cont5 p{
+    font-size: 0.9em;
+    position: relative;
+    left: 10px;  
+}
+
+
+   .cont2{
+    width: 150px;
+    height:85px ;
+   
+   }
+   .cont2 p{
+    font-size:1.3em ;
+    margin-top: 10px;
+    margin-left: 40px;
+   }
+   /* start */
+   .container3{
+    width: 630px;
+    height: 85px;
+    background-color: white;
+    display: inline;
+    display: flex;
+   }
+
+   .container3:hover{
+    background-color: rgb(235, 232, 232);
+   }
+
+   .tain{
+    width: 100px;
+    height:85px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+   .tain3{
+    width: 75px;
+    height:75px;
+    background-color: black;
+    border-radius: 50%;
+   }
+.tain3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+   .tain1{
+    width: 700px;
+    height:85px ;
+    
+   }
+.tain4{
+width:400px ;
+height: 42.5px;
+
+}
+.tain4 p {
+    font-size: 1em;
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+}
+.tain5{
+width:400px ;
+height: 42.5px;
+}
+
+.tain5 p{
+    font-size: 0.9em;
+    position: relative;
+    left: 10px;  
+}
+
+
+   .tain2{
+    width: 150px;
+    height:85px ;
+    position: relative;
+    left: 570px;
+  
+   
+   }
+   .tain2 p{
+    font-size:1.3em ;
+    margin-top: -50px;
+    margin-right: 670px;
+   }
+
+   .breakfast{
+    width: 100%;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -99px;
+   }
+   .breakfast p{
+        color: rgb(14, 14, 14);
+        font-size: 2em; 
+   }
+
+   .breakfast1{
+    display: inline;
+    display: flex;
+    margin-top: -60px;
+   }
+
+   .breakfast2{
+    width: 50%;
+    height: 85px;
+   }
+
+   .breakfast2:hover{
+    background-color: rgb(235, 232, 232);
+   }
+
+   .breakfast3{
+    width: 50%;
+    height: 85px;
+   }
+
+   .breakfast3:hover{
+    background-color: rgb(235, 232, 232);
+   }
+
+
+
+   .breakfast4{
+    display: inline;
+    display: flex;
+   }
+   .breakfast5{
+    width: 50%;
+    height: 85px;
+   }
+
+   .breakfast5:hover{
+    background-color: rgb(235, 232, 232);
+   }
+
+   .breakfast6{
+    width: 50%;
+    height: 85px;
+   }
+   .breakfast6:hover{
+    background-color: rgb(235, 232, 232);
+   }
+
+   .breakfast7{
+    display: inline;
+    display: flex;
+   }
+   .breakfast8{
+    width: 50%;
+    height: 85px;
+   }
+
+   .breakfast8:hover{
+    background-color: rgb(235, 232, 232);
+   }
+
+   .breakfast9{
+    width: 50%;
+    height: 85px;
+   }
+
+   .breakfast9:hover{
+    background-color: rgb(235, 232, 232);
+   }
+
+   .breakfast10{
+    display: inline;
+    display: flex;
+   }
+   .breakfast11{
+    width: 50%;
+    height: 85px;
+   }
+
+   .breakfas11:hover{
+    background-color: rgb(235, 232, 232);
+   }
+
+   .breakfast12{
+    width: 50%;
+    height: 85px;
+   }
+
+   .breakfast12:hover{
+    background-color: rgb(235, 232, 232);
+   }
+
+   .bf{
+    width: 700px;
+    height:85px ; 
+   }
+
+.bf1{
+width:400px ;
+height: 42.5px;
+}
+.bf1 p {
+    font-size: 1em;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    margin-left: 40px;
+}
+    
+.bf2{
+    width:400px ;
+    height: 42.5px;
+    }
+
+.bf2 p {
+    font-size: 1em;
+    position: relative;
+    top: -3px;
+    left: 10px;
+    margin-left: 40px;
+
+}
+.bf3{
+    width: 150px;
+    height:85px ;
+    position: relative;
+    left: 570px;
+
+   }
+   .bf3 p{
+    font-size:1.3em ;
+    margin-top: -65px;
+    margin-right: 670px;
+    color: black;
+   }
+
+   .js{
+    width: 700px;
+    height:85px ; 
+   }
+
+.js1{
+width:400px ;
+height: 42.5px;
+}
+.js1 p {
+    font-size: 1em;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    margin-left: 30px;
+}
+    
+.js2{
+    width:400px ;
+    height: 42.5px;
+    }
+
+.js2 p {
+    font-size: 1em;
+    position: relative;
+    top: -3px;
+    left: 10px;
+    margin-left: 30px;
+
+}
+.js3{
+    width: 150px;
+    height:85px ;
+    position: relative;
+    left: 400px;
+
+   }
+   .js3 p{
+    font-size:1.3em ;
+    margin-top: -65px;
+    margin-right: 500px;
+    color: black;
+   }
+
+   .gs{
+    width: 700px;
+    height:85px ; 
+   }
+
+.gs1{
+width:400px ;
+height: 42.5px;
+}
+.gs1 p {
+    font-size: 1em;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    margin-left: 40px;
+}
+    
+.gs2{
+    width:400px ;
+    height: 42.5px;
+    }
+
+.gs2 p {
+    font-size: 1em;
+    position: relative;
+    top: -3px;
+    left: 10px;
+    margin-left: 40px;
+
+}
+.gs3{
+    width: 150px;
+    height:85px ;
+    position: relative;
+    left: 570px;
+
+   }
+   .gs3 p{
+    font-size:1.3em ;
+    margin-top: -65px;
+    margin-right: 670px;
+    color: black;
+   }
+
+   .ts{
+    width: 700px;
+    height:85px ; 
+   }
+
+.ts1{
+width:400px ;
+height: 42.5px;
+}
+.ts1 p {
+    font-size: 1em;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    margin-left: 30px;
+}
+    
+.ts2{
+    width:400px ;
+    height: 42.5px;
+    }
+
+.ts2 p {
+    font-size: 1em;
+    position: relative;
+    top: -3px;
+    left: 10px;
+    margin-left: 30px;
+
+}
+.ts3{
+    width: 150px;
+    height:85px ;
+    position: relative;
+    left: 400px;
+
+   }
+   .ts3 p{
+    font-size:1.3em ;
+    margin-top: -65px;
+    margin-right: 500px;
+    color: black;
+   }
+
+   .ps{
+    width: 700px;
+    height:85px ; 
+   }
+
+.ps1{
+width:400px ;
+height: 42.5px;
+}
+.ps1 p {
+    font-size: 1em;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    margin-left: 40px;
+}
+    
+.ps2{
+    width:400px ;
+    height: 42.5px;
+    }
+
+.ps2 p {
+    font-size: 1em;
+    position: relative;
+    top: -3px;
+    left: 10px;
+    margin-left: 40px;
+
+}
+.ps3{
+    width: 150px;
+    height:85px ;
+    position: relative;
+    left: 570px;
+
+ }
+   .ps3 p{
+    font-size:1.3em ;
+    margin-top: -65px;
+    margin-right: 670px;
+    color: black;
+   }
+
+   .rs{
+    width: 700px;
+    height:85px ; 
+   }
+
+.rs1{
+width:400px ;
+height: 42.5px;
+}
+.rs1 p {
+    font-size: 1em;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    margin-left: 30px;
+}
+    
+.rs2{
+    width:400px ;
+    height: 42.5px;
+    }
+
+.rs2 p {
+    font-size: 1em;
+    position: relative;
+    top: -3px;
+    left: 10px;
+    margin-left: 30px;
+
+}
+.rs3{
+    width: 150px;
+    height:85px ;
+    position: relative;
+    left: 400px;
+
+   }
+   .rs3 p{
+    font-size:1.3em ;
+    margin-top: -65px;
+    margin-right: 500px;
+    color: black;
+   }
+
+   /* LUNCHTIME */
+
+   .LUNCH{
+    width: 100%;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2px;
+   }
+   .LUNCH p{
+        color: rgb(14, 14, 14);
+        font-size: 2em; 
+   }
+
+
+   /*coming back for lunch styling  */
+.wins{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin-top: 2px;
+}
+
+.wins p{
+    color: black;
+    font-size: 2em;
+}
+
+.wins1{
+display: inline;
+ display: flex;
+margin-top: -60px;
+
+}
+
+.wins2{
+width: 50%;        
+height: 200px;
+background-color: cornflowerblue;
+}
+
+.wins3{
+    width: 50%;        
+    height:200px;
+    background-color: blueviolet;
+    }
